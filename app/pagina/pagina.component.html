@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Movy Pedidos </title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+
+<body>
+     <header>
+       <a href="#" class="logo"><i class="fas-fa-untensils"></i>Movy Pedidos</a>
+       <nav class="navega">
+            <a class="activo" href="#home">Inicio</a>
+            <a href="#dishes">Comida</a>
+            <a href="#about">Acerca de nosotros</a>
+            <a href="#menu">Menu</a>
+       </nav>
+       <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"> </i>
+            <i class="fas fa-search" id="search-icon"> </i>
+            <a class="#" class="fas fa-heart"></a>
+            <a class="#" class="fas fa-shopping-cart" href="pag3"></a>
+       </div>
+     </header> 
+
+<form action="" id="search-form">
+  <input type="search" placeholder="busque aqui..." name="" id="search-box">
+  <label for="search-box" class="fas fa-search"></label>
+  <i class="fas fa-times" id="cerrar"></i>
+</form>
+
+<section class="home" id="home">
+<div class=" swiper-container home-slider">
+     <div class=" swiper-wrapper wrapper">
+           
+             <div class=" swiper-slide desli">
+               <div class="contenido">
+                    <span>Platos especiales</span>
+                    <h3>lasagna</h3>
+                    <p>La lasaña es un tipo de pasta. Se suele servir en láminas superpuestas intercaladas con capas de ingredientes al gusto, más frecuentemente carne en salsa boloñesa y bechamel. Su origen es italiano y el plato preparado usualmente con carne suele llamarse lasaña al horno</p>
+                    <a href="#" class="btn">Ordenar</a>
+               </div>
+               <div class="imag">
+                     <img src="/assets/img/lasa.jpg" alt="">
+               </div>
+           </div>
+     </div>
+     <div class="swiper-pagination"></div>
+</div>
+</section>
+    
+ 
+<section class="dishes" id="dishes">
+     <h3 class="sub-titulo">Nuestra comida</h3>
+     <h1 class="titulo">Comida Favorita</h1>
+     <div class="box-container">
+
+            <div class="box">
+               <a href="#" class="fas fa-heart"></a>
+               <a href="#" class="fas fa-eye"></a>
+               
+               <img src="/assets/img/ham.jpg" alt="">
+               <h3>Comida Rapida</h3>
+               <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+               </div>
+               <span>$5.99</span>
+              <button click="carrito()" class="btn" type="submit" class="submit"> <a class="btn">Añadir al carrito</a></button>
+            </div>
+
+         
+          
+            <div class="box">
+               <a href="#" class="fas fa-heart"></a>
+               <a href="#" class="fas fa-eye"></a>
+               <img src="/assets/img/hot.jpg" alt="">
+               <h3>Comida Rapida</h3>
+               <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+               </div>
+               <span>$4.99</span>
+               <a  class="btn">Añadir al carrito</a>
+          </div>
+ 
+          <div class="box">
+             <a href="#" class="fas fa-heart"></a>
+             <a href="#" class="fas fa-eye"></a>
+             <img src="/assets/img/bros.jpg" alt="">
+             <h3>Comida Rapida</h3>
+             <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+             </div>
+             <span>$7.99</span>
+             <a  class="btn">Añadir al carrito</a>
+        </div>
+
+
+          
+        <div class="box">
+           <a href="#" class="fas fa-heart"></a>
+           <a href="#" class="fas fa-eye"></a>
+           <img src="/assets/img/hela.jpg" alt="">
+           <h3>Comida dulce</h3>
+           <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+           </div>
+           <span>$3.99</span>
+           <a  class="btn">Añadir al carrito</a>
+      </div>
+
+
+      <div class="box">
+         <a href="#" class="fas fa-heart"></a>
+         <a href="#" class="fas fa-eye"></a>
+         <img src="/assets/img/pizza.jpg" alt="">
+         <h3>Comida Rapida</h3>
+         <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+         </div>
+         <span>$6.99</span>
+         <a  class="btn">Añadir al carrito</a>
+    </div>
+
+          
+    <div class="box">
+       <a href="#" class="fas fa-heart"></a>
+       <a href="#" class="fas fa-eye"></a>
+       <img src="/assets/img/san.jpg" alt="">
+       <h3>Comida Rapida</h3>
+       <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+       </div>
+       <span>$2.99</span>
+       <a  class="btn">Añadir al carrito</a>
+  </div>
+     </div>
+</section>
+
+
+<section class="about" id="about">
+     <h3 class="sub-titulo">Sobre Nosotros</h3>
+     <h1 class="titulo">¿Por que comprar en nuestra tienda?</h1>
+
+     <div class="row">
+           <div class="image">
+               <img src="/assets/img/logo.jpeg" alt="">
+           </div>
+           <div class="content">
+                 <h3>Encontraras la mejor comida de tu ciudad</h3>
+                 <p>Lo más importante para Movy Pedidos es entregar un producto fresco y de buena calidad a los consumidores. Allí, todas las recetas de comida no pueden pasar más de dos horas desde su preparación.</p>
+                 <p>Red de restaurantes de comida rápida alrededor del mundo especializada en la venta de hamburguesas, papas fritas y bebidas efervescentes</p>
+                 <div class="icons-container">
+                      <div class="icons">
+                         <i class="fas fa-shipping-fast"></i>
+                         <span>Envios Gratis</span>
+                      </div>
+
+                      <div class="icons">
+                         <i class="fas fa-dollar-sign"></i>
+                         <span>Pago Facil</span>
+                      </div>
+
+                      <div class="icons">
+                         <i class="fas fa-headset"></i>
+                         <span>Servicio las 24 horas del dia</span>
+                      </div>
+                 </div>
+                 <a href="#" class="btn" href="https://www.youtube.com/watch?v=mCdA4bJAGGk">Mas informacion</a>
+           </div>
+     </div>
+</section>
+
+
+<section class="menu" id="menu">
+     <h3 class="sub-titulo">Nuestro Menu</h3>
+     <h1 class="titulo">Nuestras especialidades</h1>
+
+     <div class="box-container">
+          <div class="box">
+               <div class="image">
+                    <img src="/assets/img/asado.jpg" alt="">
+                     <a href="#" class="fas fa-heart"></a>
+               </div>
+                     <div class="content">
+                         <div class="stars">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star-half-alt"></i>
+                         </div>
+                          <h3> Comida Deliciosa</h3>
+                          <p>Pollo Asado</p>
+                          <a  class="btn"> Agregar al carrito</a>
+                          <span class="price">$12.99</span>
+                     </div>
+               </div>
+
+
+               <div class="box">
+                    <div class="image">
+                         <img src="/assets/img/bebidas.jpg" alt="">
+                          <a href="#" class="fas fa-heart"></a>
+                    </div>
+                          <div class="content">
+                              <div class="stars">
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star-half-alt"></i>
+                              </div>
+                               <h3> Comida Deliciosa</h3>
+                               <p>Bebidas Varias</p>
+                               <a  class="btn"> Agregar al carrito</a>
+                               <span class="price">$1.99</span>
+                          </div>
+                    </div>
+
+                    <div class="box">
+                         <div class="image">
+                              <img src="/assets/img/papas.jpg" alt="">
+                               <a  class="fas fa-heart"></a>
+                         </div>
+                               <div class="content">
+                                   <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                   </div>
+                                    <h3> Comida Deliciosa</h3>
+                                    <p>Papas Fritas</p>
+                                    <a  class="btn"> Agregar al carrito</a>
+                                    <span class="price">$2.99</span>
+                               </div>
+                         </div>
+
+                         <div class="box">
+                              <div class="image">
+                                   <img src="/assets/img/chancho.jpg" alt="">
+                                    <a href="#" class="fas fa-heart"></a>
+                              </div>
+                                    <div class="content">
+                                        <div class="stars">
+                                             <i class="fas fa-star"></i>
+                                             <i class="fas fa-star"></i>
+                                             <i class="fas fa-star"></i>
+                                             <i class="fas fa-star"></i>
+                                             <i class="fas fa-star-half-alt"></i>
+                                        </div>
+                                         <h3> Comida Deliciosa</h3>
+                                         <p>Chancho al Horno</p>
+                                         <a class="btn"> Agregar al carrito</a>
+                                         <span class="price">$15.99</span>
+                                    </div>
+                              </div>
+
+                              <div class="box">
+                                   <div class="image">
+                                        <img src="/assets/img/pes.jpg" alt="">
+                                         <a href="#" class="fas fa-heart"></a>
+                                   </div>
+                                         <div class="content">
+                                             <div class="stars">
+                                                  <i class="fas fa-star"></i>
+                                                  <i class="fas fa-star"></i>
+                                                  <i class="fas fa-star"></i>
+                                                  <i class="fas fa-star"></i>
+                                                  <i class="fas fa-star-half-alt"></i>
+                                             </div>
+                                              <h3> Comida Deliciosa</h3>
+                                              <p>Pescado Frito</p>
+                                              <a  class="btn"> Agregar al carrito</a>
+                                              <span class="price">$12.99</span>
+                                         </div>
+                                   </div>
+                                   <div class="box">
+                                        <div class="image">
+                                             <img src="/assets/img/encebollado.jpg" alt="">
+                                              <a href="#" class="fas fa-heart"></a>
+                                        </div>
+                                              <div class="content">
+                                                  <div class="stars">
+                                                       <i class="fas fa-star"></i>
+                                                       <i class="fas fa-star"></i>
+                                                       <i class="fas fa-star"></i>
+                                                       <i class="fas fa-star"></i>
+                                                       <i class="fas fa-star-half-alt"></i>
+                                                  </div>
+                                                   <h3> Comida Deliciosa</h3>
+                                                   <p>Encebollado</p>
+                                                   <a  class="btn"> Agregar al carrito</a>
+                                                   <span class="price">$2.99</span>
+                                              </div>
+                                        </div>
+
+
+                                        <div class="box">
+                                             <div class="image">
+                                                  <img src="/assets/img/chaula.jpg" alt="">
+                                                   <a href="#" class="fas fa-heart"></a>
+                                             </div>
+                                                   <div class="content">
+                                                       <div class="stars">
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star-half-alt"></i>
+                                                       </div>
+                                                        <h3> Comida Deliciosa</h3>
+                                                        <p>Chaulafan</p>
+                                                        <a  class="btn"> Agregar al carrito</a>
+                                                        <span class="price">$5.99</span>
+                                                   </div>
+                                             </div>
+
+
+                                             <div class="box">
+                                                  <div class="image">
+                                                       <img src="/assets/img/carne.jpg" alt="">
+                                                        <a href="#" class="fas fa-heart"></a>
+                                                  </div>
+                                                        <div class="content">
+                                                            <div class="stars">
+                                                                 <i class="fas fa-star"></i>
+                                                                 <i class="fas fa-star"></i>
+                                                                 <i class="fas fa-star"></i>
+                                                                 <i class="fas fa-star"></i>
+                                                                 <i class="fas fa-star-half-alt"></i>
+                                                            </div>
+                                                             <h3> Comida Deliciosa</h3>
+                                                             <p>Carne Asada</p>
+                                                             <a  class="btn"> Agregar al carrito</a>
+                                                             <span class="price">$5.99</span>
+                                                        </div>
+                                                  </div>
+
+                               <div class="box">
+                                   <div class="image">
+                                    <img src="/assets/img/pavo.jpg" alt="">
+                                         <a href="#" class="fas fa-heart"></a>
+                                            </div>
+                                                <div class="content">
+                                                   <div class="stars">
+                                                       <i class="fas fa-star"></i>
+                                                       <i class="fas fa-star"></i>
+                                                       <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                                       <i class="fas fa-star-half-alt"></i>
+                                                </div>
+                                           <h3> Comida Deliciosa</h3>
+                                    <p>Pavo al horno</p>
+                                <a  class="btn"> Agregar al carrito</a>
+                            <span class="price">$12.99</span>
+                      </div>
+                </div>
+         </div>   
+</section>
+
+<section class="footer">
+     <div class="box-container">
+
+          <div class="box">
+               <h3>Locacion</h3>
+               <a href="#">Quito</a>
+               <a href="#">Cuenca</a>
+               <a href="#">Guayaquil</a>
+               <a href="#">Loja</a>
+               <a href="#">Esmeraldas</a> 
+          </div>
+
+          <div class="box">
+               <h3>Rapido</h3>
+               <a href="#">Inicio</a>
+               <a href="#">Comida</a>
+               <a href="#">Nosotros</a>
+               <a href="#">Reseñas</a>
+          </div>
+
+          <div class="box">
+               <h3>Contacto</h3>
+               <a href="#">0963625460</a>
+               <a href="#">0983982688</a>
+               <a href="#">a.calleduma123@gmail.com</a>
+               <a href="#">ari.call4@hotmal.com</a>
+          </div>
+
+          <div class="box">
+               <h3>Siguenos</h3>
+               <a href="#">Facebook</a>
+               <a href="#">Instagram</a>
+               <a href="#">Twitter</a>
+               <a href="#">Reddit</a>
+          </div>
+
+     </div>
+
+     <div class="credit">copyright @ 2023 by <span>Mr.Calle</span> </div>
+
+</section>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+</body>
+     
+</html>
